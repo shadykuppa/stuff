@@ -1,23 +1,100 @@
-<!DOCTYPE html>
-<html>
-<head>
-  <title>Animals Around the World</title>
-</head>
-<body>
-  <h1>brown bear</h1>
-  <p>word about some dumb ass shit</p>
-  <a href="https://en.wikipedia.org/wiki/Brown_bear" target="_blank">The Brown Bear</a>	
-  	<ul>
-      <li>Arctos</li>
-      <li>Collarus</li>
-      <li>Horribilis</li>
-      <li>Nelsoni</li>
-    </ul>
-  <p>more words of stuff</p>
-  	<ol>
-      <li>Russia</li>
-      <li>United States</li>
-      <li>Canada</li>
-  </ol>    
-</body> 
-</html>
+body {
+	height:100vh;
+	width:100vw;
+	display:block;
+	margin:0;
+}
+.top{
+	height:10%;
+	width:100%;
+	display:flex;
+	flex-wrap:flex;
+	background-color:green;
+}
+.bottom{
+	height:90%;
+	width:100%;
+	display:flex;
+	flex-wrap:flex;
+	background-color:blue;
+}
+.top_section{
+	height:100%;
+	width:75%;
+	display:flex;
+	flex-wrap:flex;
+}
+.type{
+	height:100%;
+	width:25%;
+}
+.bottom_selection{
+	height:100%;
+	width:25%;
+	display:block;
+	background-color:red;
+}
+.info{
+	height:100%;
+	width:75%;
+	display:block;
+}
+.box{
+	height:48%;
+	width:100%;
+	background-color:purple;
+	flex-wrap:flex;
+}
+.half_box{
+	height:100%;
+	Width:50%;
+}
+.monster{
+	height:20%;
+	width:100%;
+	background-color:orange;
+}
+.space{
+	height:5%;
+	width:100%;
+}
+.space1{
+	height:4%;
+	width:100%;
+}
+@media screen and (max-width: 700px){
+
+	body {
+		display:block;
+	} 
+	.bottom{
+		height:90%;
+		width:100%;
+		display:block;
+		background-color:blue;
+	}
+	.bottom_selection{
+		height:15%;
+		width:100%;
+		display:flex;
+		flex-wrap:flex;
+		background-color:red;
+	}
+	.info{
+		height:85%;
+		width:100%;
+		display:block;
+	}
+	.space{
+		height:100%;
+		width:5%;
+	}
+	.monster{
+		height:100%;
+		width:100%;
+		background-color:orange;
+	}
+	#space_1{
+		display:none;
+	}
+}
